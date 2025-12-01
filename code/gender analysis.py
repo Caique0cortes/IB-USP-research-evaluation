@@ -6,8 +6,8 @@ from google.colab import drive
 drive.mount('/drive')
 
 base_professores = pd.read_excel('Database_professors.xlsx')
-base_docs = pd.read_excel('Doctors_Database.xlsx')
-base_pos_docs = pd.read_excel('PhD_Students_Database.xlsx')
+base_docs = pd.read_excel('Doctors Database.xlsx')
+base_pos_docs = pd.read_excel('PhD Students Database.xlsx')
 gender = pd.read_excel('Gender_Researchers.xlsx')
 
 gender = gender.rename(columns={'Nome': 'Pesquisador'}, inplace=False)
