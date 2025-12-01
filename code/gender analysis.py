@@ -11,10 +11,10 @@ import pandas as pd
 from google.colab import drive
 drive.mount('/drive')
 
-base_professores = pd.read_excel('/drive/MyDrive/Avaliação IB Pessoal/Avaliação da pesquisa no Instituto de Biociências (IB)/Base de dados/Professores/Base_ProfessoresNOVA.xlsx')
-base_docs = pd.read_excel('/drive/MyDrive/Avaliação IB Pessoal/Avaliação da pesquisa no Instituto de Biociências (IB)/Base de dados/Doutorandos/Base_doutoresNOVA.xlsx')
-base_pos_docs = pd.read_excel('/drive/MyDrive/Avaliação IB Pessoal/Avaliação da pesquisa no Instituto de Biociências (IB)/Base de dados/Pós-docs/Base_Pós_docsNOVA.xlsx')
-gender = pd.read_excel('/drive/MyDrive/Avaliação IB Pessoal/Avaliação da pesquisa no Instituto de Biociências (IB)/Base de dados/Nomes e gêneros/Pesquisadores_gênero.xlsx')
+base_professores = pd.read_excel('Database_professors.xlsx')
+base_docs = pd.read_excel('Doctors_Database.xlsx')
+base_pos_docs = pd.read_excel('PhD_Students_Database.xlsx')
+gender = pd.read_excel('Gender_Researchers.xlsx')
 
 gender = gender.rename(columns={'Nome': 'Pesquisador'}, inplace=False)
 gender = gender.dropna()
