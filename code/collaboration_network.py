@@ -21,6 +21,7 @@ drive.mount('/drive')
 
 import networkx as nx
 
+#File path
 base_geral = pd.read_excel('General database.xlsx')
 
 #Identifying related researchers
