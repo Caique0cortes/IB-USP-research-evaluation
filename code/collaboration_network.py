@@ -21,7 +21,7 @@ drive.mount('/drive')
 
 import networkx as nx
 
-base_geral = pd.read_excel('/drive/MyDrive/Avaliação IB Pessoal/Avaliação da pesquisa no Instituto de Biociências (IB)/Base de dados/Base geral/Nova_base_padronizada.xlsx')
+base_geral = pd.read_excel('General database.xlsx')
 
 #Identifying related researchers
 Lista_pesquisadores_em_comum = []
