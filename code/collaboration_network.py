@@ -120,7 +120,7 @@ for edge in G.edges(): #Takes a relationship between a pair of individuals
   x0,y0 = pos_[Individuo0] #Defining the variables for each x and y coordinate
   x1,y1 = pos_[Individuo1]
 
-  trace_edge = get_trace_edge([x0,x1],[y0,y1], width = list((G.edges()[edge]).values())[0]) #traçando a personalização da edge
+  trace_edge = get_trace_edge([x0,x1],[y0,y1], width = list((G.edges()[edge]).values())[0]) #Tracing the personalization of Edge
   edge_trace.append(trace_edge) #Adding the defined pattern for each edge to a list
 
 # Creating the node_trace
