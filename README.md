@@ -35,11 +35,11 @@ Affiliation year
 
 
 **Network Analysis:**
-Co-authorship network
-Weighted edges
-Collaboration frequency
-Department interaction
-Interactive visualization
+Co-authorship network,
+Weighted edges,
+Collaboration frequency,
+Department interaction,
+Interactive visualization,
 
 **Bibliometric Analysis:**
 Average publications before affiliation,
