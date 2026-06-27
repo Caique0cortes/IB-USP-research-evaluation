@@ -42,11 +42,11 @@ Department interaction
 Interactive visualization
 
 **Bibliometric Analysis:**
-Average publications before affiliation
-Average publications after affiliation
-Annual publication frequency
-Time until first publication
-Undergraduate publication productivity
+Average publications before affiliation,
+Average publications after affiliation,
+Annual publication frequency,
+Time until first publication,
+Undergraduate publication productivity,
 Master's publication productivity
 
 **Statistical Analysis:**
