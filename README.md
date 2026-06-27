@@ -69,7 +69,7 @@ Data cleaning
         ▼
 Bibliometric indicators
         │
-        ├─────────────► Statistical tests
+        ├─────────────► Statistical analysis
         │
         ▼
 Co-authorship network
