@@ -50,11 +50,11 @@ Undergraduate publication productivity
 Master's publication productivity
 
 **Statistical Analysis:**
-Descriptive statistics
-Hypothesis testing
-Independent t-test
-Paired t-test
-p-values
+Descriptive statistics,
+Hypothesis testing,
+Independent t-test,
+Paired t-test,
+p-values,
 
 
 
